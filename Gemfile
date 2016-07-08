@@ -46,3 +46,8 @@ group :development do
 end
 
 gem 'rspec-rails', group: [ :test ]
+
+
+ruby '2.3.1'
+gem 'rails_12factor', group: :production
+gem 'puma',           group: :production
